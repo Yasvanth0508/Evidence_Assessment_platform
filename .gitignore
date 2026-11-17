@@ -1,0 +1,9 @@
+# Temporary clone test output
+temp-clone/
+
+# JVM crash logs
+hs_err_*.log
+replay_pid*.log
+
+# Maven build artifacts
+**/target/
