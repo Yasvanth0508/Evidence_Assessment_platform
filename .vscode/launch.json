@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RepositoryAnalysisServiceManualTest",
+            "request": "launch",
+            "mainClass": "com.example.evidence.backend.repositoryanalysis.service.RepositoryAnalysisServiceManualTest",
+            "projectName": "evidence"
+        },
+        {
+            "type": "java",
+            "name": "ApiEndpointAnalyzerManualTest",
+            "request": "launch",
+            "mainClass": "com.example.evidence.backend.repositoryanalysis.analyzer.ApiEndpointAnalyzerManualTest",
+            "projectName": "evidence"
+        },
+        {
+            "type": "java",
+            "name": "JavaSourceAnalyzerManualTest",
+            "request": "launch",
+            "mainClass": "com.example.evidence.backend.repositoryanalysis.analyzer.JavaSourceAnalyzerManualTest",
+            "projectName": "evidence"
+        },
+        {
+            "type": "java",
+            "name": "BuildConfigurationAnalyzerManualTest",
+            "request": "launch",
+            "mainClass": "com.example.evidence.backend.repositoryanalysis.analyzer.BuildConfigurationAnalyzerManualTest",
+            "projectName": "evidence"
+        },
+        {
+            "type": "java",
             "name": "ProjectStructureScannerManualTest",
             "request": "launch",
             "mainClass": "com.example.evidence.backend.repositoryanalysis.scanner.ProjectStructureScannerManualTest",
